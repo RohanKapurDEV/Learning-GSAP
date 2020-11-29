@@ -5,7 +5,6 @@ import AnimatedCursor from "react-animated-cursor";
 import CSSRulePlugin from "gsap/CSSRulePlugin";
 import { Power2, Power3, gsap } from "gsap";
 import { useRef, useEffect } from "react";
-import * as s from "react-splittext";
 
 export default function App() {
   const appRef = useRef(null);
